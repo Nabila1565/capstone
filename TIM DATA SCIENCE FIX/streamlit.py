@@ -408,7 +408,7 @@ Apakah distribusi kelas sudah balanced?
     st.markdown("---")
     st.subheader("📊 Data Balanced")
 
-   balanced_splits = {
+    balanced_splits = {
         "Train": os.path.join(BASE_DIR, "BISINDO-Augmented-Balanced", "train", "images"),
         "Valid": os.path.join(BASE_DIR, "BISINDO-Augmented-Balanced", "valid", "images"),
         "Test": os.path.join(BASE_DIR, "BISINDO-Augmented-Balanced", "test", "images"),
