@@ -413,7 +413,7 @@ Apakah distribusi kelas sudah balanced?
         "Valid": os.path.join(BASE_DIR, "BISINDO-Augmented-Balanced", "valid", "images"),
         "Test": os.path.join(BASE_DIR, "BISINDO-Augmented-Balanced", "test", "images"),
     }
-
+    
     split2 = st.selectbox(
         "Pilih Split Balanced",
         list(balanced_splits.keys()),
