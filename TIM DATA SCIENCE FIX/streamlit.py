@@ -411,8 +411,8 @@ Apakah distribusi kelas sudah balanced?
    balanced_splits = {
     "Train": os.path.join(BASE_DIR, "BISINDO-Augmented-Balanced", "train", "images"),
     "Valid": os.path.join(BASE_DIR, "BISINDO-Augmented-Balanced", "valid", "images"),
-    "Test": os.path.join(BASE_DIR, "BISINDO-Augmented-Balanced", "test", "images")
-}
+    "Test": os.path.join(BASE_DIR, "BISINDO-Augmented-Balanced", "test", "images"),
+    }
 
     split2 = st.selectbox(
         "Pilih Split Balanced",
