@@ -408,29 +408,11 @@ Apakah distribusi kelas sudah balanced?
     st.markdown("---")
     st.subheader("📊 Data Balanced")
 
-    balanced_splits = {
-        "Train": os.path.join(
-            BASE_DIR,
-            "TIM DATA SCIENCE FIX",
-            "BISINDO-Augmented-Balanced",
-            "train",
-            "images"
-        ),
-        "Valid": os.path.join(
-            BASE_DIR,
-            "TIM DATA SCIENCE FIX",
-            "BISINDO-Augmented-Balanced",
-            "valid",
-            "images"
-        ),
-        "Test": os.path.join(
-            BASE_DIR,
-            "TIM DATA SCIENCE FIX",
-            "BISINDO-Augmented-Balanced",
-            "test",
-            "images"
-        )
-    }
+   balanced_splits = {
+    "Train": os.path.join(BASE_DIR, "BISINDO-Augmented-Balanced", "train", "images"),
+    "Valid": os.path.join(BASE_DIR, "BISINDO-Augmented-Balanced", "valid", "images"),
+    "Test": os.path.join(BASE_DIR, "BISINDO-Augmented-Balanced", "test", "images")
+}
 
     split2 = st.selectbox(
         "Pilih Split Balanced",
