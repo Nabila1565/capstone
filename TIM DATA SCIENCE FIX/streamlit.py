@@ -28,7 +28,6 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 DATASET_DIR = os.path.join(
     BASE_DIR,
-    "TIM DATA SCIENCE FIX",
     "BISINDO-Dataset-1"
 )
 
